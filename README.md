@@ -20,7 +20,7 @@ CurrEx library for get USD exchange rates with the next currencies from the FLOA
 
 ## Install
 
-composer require older777/currex
+    composer require older777/currex
 
 ## Configuration and usage example
 

@@ -17,5 +17,10 @@
 		"php" : ">=7.2",
 		"guzzlehttp/guzzle" : ">=5.0.0",
 		"laravel/framework" : "5.0 - 5.7"
-	}
+	},
+	"authors" : [{
+			"name" : "Arthur Minkhaerov",
+			"email" : "artip777@gmail.com"
+		}
+	]
 }
