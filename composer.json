@@ -1,0 +1,21 @@
+{
+	"keywords" : [
+		"currency rate",
+		"exchange rate",
+		"USD currency"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Older777\\CurrEx\\" : "src"
+		}
+	},
+	"name" : "older777/currex",
+	"description" : "Wrapper for online USD currency exchange rates from FLOATRATES.COM",
+	"license" : "GPL-1.0",
+	"type" : "laravel-library",
+	"require" : {
+		"php" : ">=7.2",
+		"guzzlehttp/guzzle" : ">=5.0.0",
+		"laravel/framework" : "5.0 - 5.7"
+	}
+}
