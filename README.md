@@ -18,6 +18,10 @@ CurrEx library for get USD exchange rates with the next currencies from the FLOA
 - Intervals and timeouts configurations
 - Round floats 2 number after point
 
+## Install
+
+composer require older777/currex
+
 ## Configuration and usage example
 
 Add in to your ENV-file config lines:
