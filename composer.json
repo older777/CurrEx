@@ -22,5 +22,6 @@
 			"name" : "Arthur Minkhaerov",
 			"email" : "artip777@gmail.com"
 		}
-	]
+	],
+	"minimum-stability" : "dev"
 }
