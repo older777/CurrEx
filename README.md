@@ -44,7 +44,7 @@ PHP-example of some page controller
             1 USD = {$currex::getExRate('JPY')} JPY<br />
             1 USD = {$currex::getExRate('RUB')} RUB<br />
             1 USD = {$currex::getExRate('GBP')} GBP<br />
-            1 USD = {$currex::getExRate('CNY')} BRL<br />
+            1 USD = {$currex::getExRate('BRL')} BRL<br />
         TXT;
     }
 ```
