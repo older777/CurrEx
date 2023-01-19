@@ -5,9 +5,9 @@ CurrEx library for get USD exchange rates for next currencies from the FLOATRATE
 
 ## Requirements
 
-- Laravel version current support: 5.0 - 5.7
+- Laravel version current support: >=5.8
 - Guzzle HTTP Client: >=5.0
-- PHP ver: >=7.0
+- PHP ver: >=7.1
 - PHP extensions: XML; mbstring;
 
 ## Features

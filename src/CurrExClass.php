@@ -10,7 +10,6 @@ use Older777\CurrEx\XMLFeedParseClass;
 /**
  *
  * Wrapper for online USD currency exchange rates of FLOATRATES.COM
- * $interval min between queries 30 mins
  *
  * @author older777
  *        
@@ -51,7 +50,7 @@ class CurrExClass
         }
 
         // get/set default interval, 0 interval - no cache
-        $interval = env(self::ENVINTERVAL, 60);
+        $interval = env(self::ENVINTERVAL, 60) * 60;
         // get XML feed from cache
         if (Cache::offsetExists(self::XMLFEEDCACHE) && $interval) {
             self::$xmlfeed = cache::get(self::XMLFEEDCACHE);
